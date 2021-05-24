@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_navigation"
+    app:startDestination="@id/fragmentStateSelect">
+
+    <fragment
+        android:id="@+id/fragmentStateSelect"
+        android:name="com.ayushman.vaccinenotifier.ui.fragmentStateSelect.FragmentStateSelect"
+        android:label="fragment_state_select"
+        tools:layout="@layout/fragment_state_select" >
+        <action
+            android:id="@+id/action_fragmentStateSelect_to_fragmentDistrictSelect"
+            app:destination="@id/fragmentDistrictSelect" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDistrictSelect"
+        android:name="com.ayushman.vaccinenotifier.ui.fragmentDistrictSelect.FragmentDistrictSelect"
+        android:label="fragment_district_select"
+        tools:layout="@layout/fragment_district_select" >
+        <argument
+            android:name="stateId"
+            app:argType="integer" />
+        <argument
+            android:name="stateName"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Cowin Buddy</string>
+    <string name="null_value">NULL</string>
+    <string name="state_name">State name</string>
+    <string name="country_name">Country name</string>
+    <string name="select_your_state">Select your state</string>
+    <string name="select_your_district">Select your district</string>
+    <string name="district_name">District Name</string>
+    <string name="confirm_your_location">Confirm your location</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="location">Location</string>
+    <string name="change_location">CHANGE LOCATION</string>
+    <string name="above_45_years">Above 45 years</string>
+    <string name="above_18_years">Above 18 years</string>
+    <string name="till_19_05_2021">Till: 19-05-2021</string>
+    <string name="available">Available</string>
+    <string name="_118_centers">118 centers</string>
+    <string name="not_available">Not available</string>
+    <string name="covaxin">Covaxin</string>
+    <string name="capacity_18">Capacity: 18</string>
+    <string name="minimum_age_18">Minimum age : 18</string>
+    <string name="_19_05_2021">19-05-2021</string>
+    <string name="pin_000000">Pin: 000000</string>
+    <string name="centername">CenterName</string>
+    <string name="notifications">Notifications</string>
+    <string name="change_location_text">Change location</string>
+    <string name="error_text">Oops! you have reached your maximum limit. You can refresh only 15 times in 5 minutes. Please try again later!</string>
+    <string name="empty_text">Seems like there is no vaccination centers available for appointment near you at this moment. Please try again later!</string>
+    <string name="channel_id">Vaccine</string>
+    <string name="channel_name">Vaccine Updates</string>
+</resources>
